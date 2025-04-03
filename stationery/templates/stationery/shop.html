@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | ElectroMart eCommerce</title>
+    <meta name="description" content="" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/font/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/plugin/nice-select/nice-select.css">
+    <link rel="stylesheet" href="./assets/plugin/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/plugin/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/plugin/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="./assets/plugin/slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="border-bottom">
+            <div class="bg-light py-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-12 text-center text-md-start"><span>Super Deals Today - 10% Off All Category </span></div>
+                        <div class="col-6 text-end d-none d-md-block">
+                            <div class="d-flex justify-content-end lang">
+                                <select class="nice-option">
+                                    <option value="English">
+                                        <span class="me-2">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#selectedlang)">
+                                                    <path d="M0 0.5H16V12.5H0V0.5Z" fill="#012169"></path>
+                                                    <path
+                                                        d="M1.875 0.5L7.975 5.025L14.05 0.5H16V2.05L10 6.525L16 10.975V12.5H14L8 8.025L2.025 12.5H0V11L5.975 6.55L0 2.1V0.5H1.875Z"
+                                                        fill="white"></path>
+                                                    <path
+                                                        d="M10.6 7.525L16 11.5V12.5L9.225 7.525H10.6ZM6 8.025L6.15 8.9L1.35 12.5H0L6 8.025ZM16 0.5V0.575L9.775 5.275L9.825 4.175L14.75 0.5H16ZM0 0.5L5.975 4.9H4.475L0 1.55V0.5Z"
+                                                        fill="#C8102E"></path>
+                                                    <path d="M6.025 0.5V12.5H10.025V0.5H6.025ZM0 4.5V8.5H16V4.5H0Z"
+                                                        fill="white"></path>
+                                                    <path d="M0 5.325V7.725H16V5.325H0ZM6.825 0.5V12.5H9.225V0.5H6.825Z"
+                                                        fill="#C8102E"></path>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="selectedlang">
+                                                        <rect width="16" height="12" fill="white"
+                                                            transform="translate(0 0.5)"></rect>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                        English
+                                    </option>
+
+                                    <option value="Hindi"> <span class="me-2">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_5543_19751)">
+                                                    <path d="M0 8.5H16V12.5H0V8.5Z" fill="#FFCE00"></path>
+                                                    <path d="M0 0.5H16V4.5H0V0.5Z" fill="black"></path>
+                                                    <path d="M0 4.5H16V8.5H0V4.5Z" fill="#DD0000"></path>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_5543_19751">
+                                                        <rect width="16" height="12" fill="white"
+                                                            transform="translate(0 0.5)"></rect>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                        Hindi
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-4">
+                <div class="container">
+                    <div class="row w-100 align-items-center gx-lg-2 gx-0">
+                        <div class="col-xxl-2 col-lg-3 col-md-6 col-5">
+                            <a class="navbar-brand d-none d-lg-block" href="index.html">
+                                <img src="./assets/images/logo.png" alt="eCommerce HTML Template">
+                            </a>
+                            <div class="d-flex justify-content-between w-100 d-lg-none">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="./assets/images/logo.png" alt="eCommerce HTML Template">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xxl-8 col-lg-7 d-none d-lg-block">
+                            <form action="#">
+                                <div class="input-group">
+                                    <input class="form-control" type="search" placeholder="Search for products">
+                                    <span class="input-group-append">
+                                        <button class="btn bg-white border border-start-0 ms-n10 rounded-0 rounded-end"
+                                            type="button">
+                                            <span class="bi bi-search"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-2 col-xxl-2 text-end col-md-6 col-7">
+                            <div class="list-inline">
+                                <div class="list-inline-item me-3 me-lg-4">
+                                    <a href="wishlist.html" class="text-muted position-relative">
+                                        <i class="bi bi-heart"></i>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                            5
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="list-inline-item me-3 me-lg-4">
+                                    <a href="login.html" class="text-muted">
+                                        <i class="bi bi-person"></i>
+                                    </a>
+                                </div>
+                                <div class="list-inline-item me-3 me-lg-0">
+                                    <a class="text-muted position-relative" href="cart.html">
+                                        <i class="bi bi-cart"></i>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                            1
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="list-inline-item d-inline-block d-lg-none">
+                                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#navbar-default" aria-controls="navbar-default"
+                                        aria-label="Toggle navigation">
+                                         <i class="bi bi-text-indent-left"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light navbar-default py-0 pb-lg-2"
+                aria-label="Offcanvas navbar large">
+                <div class="container">
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar-default"
+                        aria-labelledby="navbar-defaultLabel">
+                        <div class="offcanvas-header pb-1">
+                            <a href="index.html"><img src="./assets/images/logo.png"
+                                    alt="eCommerce HTML Template"></a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="d-block d-lg-none mb-4">
+                                <form action="#">
+                                    <div class="input-group">
+                                        <input class="form-control" type="search" placeholder="Search for products">
+                                        <span class="input-group-append">
+                                            <button
+                                                class="btn bg-white border border-start-0 ms-n10 rounded-0 rounded-end"
+                                                type="button">
+                                                <span class="bi bi-search"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="d-block d-lg-none mb-4">
+                                <a class="btn btn-primary w-100 d-flex justify-content-center align-items-center collapsed"
+                                    data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample">
+                                    <span class="me-2">
+                                        <i class="bi bi-grid"></i>
+                                    </span>
+                                    All Categories
+                                </a>
+                                <div class="mt-2 collapse" id="collapseExample">
+                                    <div class="card card-body">
+                                        <ul class="mb-0 list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Laptop Accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Mobile Accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Camera Accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Games</a></li>
+                                            <li><a class="dropdown-item" href="#">Smart Wearables</a></li>
+                                            <li><a class="dropdown-item" href="#">Smart Home Automation</a></li>
+                                            <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown me-3 d-none d-lg-block">
+                                <button class="btn btn-primary px-6" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="me-1">
+                                        <i class="bi bi-grid"></i>
+                                    </span>
+                                    All Categories
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Laptop Accessories</a></li>
+                                    <li><a class="dropdown-item" href="#">Mobile Accessories</a></li>
+                                    <li><a class="dropdown-item" href="#">Camera Accessories</a></li>
+                                    <li><a class="dropdown-item" href="#">Games</a></li>
+                                    <li><a class="dropdown-item" href="#">Smart Wearables</a></li>
+                                    <li><a class="dropdown-item" href="#">Smart Home Automation</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="navbar-nav align-items-center">
+                                    <li class="nav-item dropdown w-100 w-lg-auto">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown w-100 w-lg-auto">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="shop.html">Shop Page - Filter</a></li>
+                                            <li><a class="dropdown-item" href="shop-single.html">Shop Single</a></li>
+                                            <li><a class="dropdown-item" href="wishlist.html">Shop Wishlist</a></li>
+                                            <li><a class="dropdown-item" href="cart.html">Shop Cart</a></li>
+                                            <li><a class="dropdown-item" href="checkout.html">Shop Checkout</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown w-100 w-lg-auto dropdown-fullwidth">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
+                                        <div class="dropdown-menu pb-0">
+                                            <div class="row p-2 p-lg-4">
+                                                <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                    <h6 class="text-primary ps-3">Laptop Accessories</h6>
+                                                    <a class="dropdown-item" href="#">Mouse</a>
+                                                    <a class="dropdown-item" href="#">Keyboard</a>
+                                                    <a class="dropdown-item" href="#">USB</a>
+                                                    <a class="dropdown-item" href="#">Data Cards</a>
+                                                    <a class="dropdown-item" href="#">Router</a>
+                                                    <a class="dropdown-item" href="#">Battery</a>
+                                                    <a class="dropdown-item" href="#">Adapter</a>
+                                                    <a class="dropdown-item" href="#">UPS</a>
+                                                </div>
+                                                <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                    <h6 class="text-primary ps-3">Mobile Accessories</h6>
+                                                    <a class="dropdown-item" href="#">Screen Guards</a>
+                                                    <a class="dropdown-item" href="#">Plain Cases</a>
+                                                    <a class="dropdown-item" href="#">Mobile Cables</a>
+                                                    <a class="dropdown-item" href="#">Mobile Charger</a>
+                                                    <a class="dropdown-item" href="#">Camera Lens</a>
+                                                    <a class="dropdown-item" href="#">Mobile Flash</a>
+                                                    <a class="dropdown-item" href="#">Power Bank</a>
+                                                    <a class="dropdown-item" href="#">Mobile USB</a>
+                                                </div>
+                                                <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                    <h6 class="text-primary ps-3">Camera Accessories</h6>
+                                                    <a class="dropdown-item" href="#">Instant Camera</a>
+                                                    <a class="dropdown-item" href="#">Drone</a>
+                                                    <a class="dropdown-item" href="#">DSLR</a>
+                                                    <a class="dropdown-item" href="#">Flashes</a>
+                                                    <a class="dropdown-item" href="#">Sports & Action</a>
+                                                    <a class="dropdown-item" href="#">Camera Lens</a>
+                                                    <a class="dropdown-item" href="#">Camera tripods</a>
+                                                    <a class="dropdown-item" href="#">Point & Shoot</a>
+                                                </div>
+                                                <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                    <div class="position-relative">
+                                                        <img src="./assets/images/category/special-offer.png"
+                                                            class="rounded w-100" alt="eCommerce HTML Template"
+                                                            class="img-fluid">
+                                                        <div class="position-absolute ps-6 mt-8 top-0 p-4">
+                                                            <h5 class="mb-0">
+                                                                Dont miss this
+                                                                <br>
+                                                                offer today.
+                                                            </h5>
+                                                            <a href="#" class="btn btn-cart btn-sm mt-3">Shop Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown w-100 w-lg-auto">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                            <li><a class="dropdown-item" href="blog-single.html">Blog Single</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="about.html">About us</a></li>
+                                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown w-100 w-lg-auto">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">Account</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+                                                <li><a class="dropdown-item" href="signup.html">Signup</a></li>
+                                                <li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a></li>
+                                            </ul>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="shop-section">
+        <!-- section-->
+        <div class="mt-4">
+           <div class="container">
+              <!-- row -->
+              <div class="row">
+                 <!-- col -->
+                 <div class="col-12">
+                    <!-- breadcrumb -->
+                    <nav aria-label="breadcrumb">
+                       <ol class="breadcrumb mb-0">
+                          <li class="breadcrumb-item"><a href="#!">Home</a></li>
+                          <li class="breadcrumb-item"><a href="#!">Shop</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Mi</li>
+                       </ol>
+                    </nav>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <!-- section -->
+        <div class="mb-lg-14 mb-5">
+           <!-- container -->
+           <div class="container">
+              <!-- row -->
+              <div class="row gx-10">
+                 <!-- col -->
+                 <aside class="col-lg-3 col-md-4 mb-2">
+                    <div class="offcanvas offcanvas-start offcanvas-collapse w-md-50" tabindex="-1" id="offcanvasCategory" aria-labelledby="offcanvasCategoryLabel">
+                       <div class="offcanvas-header d-lg-none border-bottom">
+                          <h5 class="offcanvas-title" id="offcanvasCategoryLabel">Filter</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                       </div>
+                       <div class="offcanvas-body ps-lg-2 pt-lg-0">
+                        <div class="my-4">
+                            <!-- title -->
+                            <h5 class="mb-3">Categories</h5>
+                            <!-- nav -->
+                            <ul class="nav nav-category" id="categoryCollapseMenu">
+                               <li class="nav-item border-bottom w-100">
+                                  <a href="#" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#categoryFlushOne" aria-expanded="false" aria-controls="categoryFlushOne">
+                                     Laptop Accessories
+                                     <i class="bi bi-chevron-right"></i>
+                                  </a>
+                                  <!-- accordion collapse -->
+                                  <div id="categoryFlushOne" class="accordion-collapse collapse" data-bs-parent="#categoryCollapseMenu">
+                                     <div>
+                                        <ul class="nav flex-column ms-3">
+                                           <li class="nav-item"><a href="#!" class="nav-link">Mouse</a></li>
+                                           <li class="nav-item"><a href="#!" class="nav-link">Keyboard</a></li>
+                                           <li class="nav-item"><a href="#!" class="nav-link">USB</a></li>
+                                           <li class="nav-item"><a href="#!" class="nav-link">Data Cards</a></li>
+                                         </ul>
+                                     </div>
+                                  </div>
+                               </li>
+                            </ul>
+                         </div>
+                         <div class="my-4 border-bottom pb-3">
+                            <!-- price -->
+                            <h5 class="mb-3">Price</h5>
+                            <div>
+                               <!-- range -->
+                               <div id="priceRange" class="mb-3"></div>
+                               <small class="text-muted">Price:</small>
+                               <span id="priceRange-value" class="small"></span>
+                            </div>
+                         </div>
+                         <div class="my-4 border-bottom pb-3">
+                            <h5 class="mb-3">Color</h5>
+                            <!-- form check -->
+                            <div class="form-check mb-2">
+                               <!-- input -->
+                               <input class="form-check-input" type="checkbox" value="" id="tWhite" checked>
+                               <label class="form-check-label" for="tWhite">White</label>
+                            </div>
+                            <!-- form check -->
+                            <div class="form-check mb-2">
+                               <!-- input -->
+                               <input class="form-check-input" type="checkbox" value="" id="tBlue">
+                               <label class="form-check-label" for="tBlue">Blue</label>
+                            </div>
+                            <!-- form check -->
+                            <div class="form-check mb-2">
+                               <!-- input -->
+                               <input class="form-check-input" type="checkbox" value="" id="tBlack">
+                               <label class="form-check-label" for="tBlack">Black</label>
+                            </div>
+                         </div>
+                         <div class="mt-4">
+                            <h5 class="mb-3">Rating</h5>
+                            <div>
+                               <!-- form check -->
+                               <div class="form-check mb-2">
+                                  <!-- input -->
+                                  <input class="form-check-input" type="checkbox" value="" checked id="ratingFive">
+                                  <label class="form-check-label" for="ratingFive">
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                  </label>
+                               </div>
+                               <!-- form check -->
+                               <div class="form-check mb-2">
+                                  <!-- input -->
+                                  <input class="form-check-input" type="checkbox" value="" id="ratingFour">
+                                  <label class="form-check-label" for="ratingFour">
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star text-warning"></i>
+                                  </label>
+                               </div>
+                               <!-- form check -->
+                               <div class="form-check mb-2">
+                                  <!-- input -->
+                                  <input class="form-check-input" type="checkbox" value="" id="ratingThree">
+                                  <label class="form-check-label" for="ratingThree">
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star text-warning"></i>
+                                     <i class="bi bi-star text-warning"></i>
+                                  </label>
+                               </div>
+                               <!-- form check -->
+                               <div class="form-check mb-2">
+                                  <!-- input -->
+                                  <input class="form-check-input" type="checkbox" value="" id="ratingTwo">
+                                  <label class="form-check-label" for="ratingTwo">
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star text-warning"></i>
+                                     <i class="bi bi-star text-warning"></i>
+                                     <i class="bi bi-star text-warning"></i>
+                                  </label>
+                               </div>
+                               <!-- form check -->
+                               <div class="form-check mb-2">
+                                  <!-- input -->
+                                  <input class="form-check-input" type="checkbox" value="" id="ratingOne">
+                                  <label class="form-check-label" for="ratingOne">
+                                     <i class="bi bi-star-fill text-warning"></i>
+                                     <i class="bi bi-star text-warning"></i>
+                                     <i class="bi bi-star text-warning"></i>
+                                     <i class="bi bi-star text-warning"></i>
+                                     <i class="bi bi-star text-warning"></i>
+                                  </label>
+                               </div>
+                            </div>
+                         </div>
+                       </div>
+                    </div>
+                 </aside>
+                 <section class="col-lg-9 col-md-12">
+                   
+                    <!-- list icon -->
+                    <div class="d-lg-flex justify-content-between align-items-center">
+                       <div class="mb-3 mb-lg-0">
+                           <h1 class="filter-title">Mi (Showing 20 of 2405 items)</h1>
+                       </div>
+
+                       <!-- icon -->
+                       <div class="d-md-flex justify-content-between align-items-center">
+                          <div class="d-flex align-items-center justify-content-between">
+                             <div class="d-lg-none">
+                                <a class="btn border px-4 text-muted" data-bs-toggle="offcanvas" href="#offcanvasCategory" role="button" aria-controls="offcanvasCategory">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-filter me-2">
+                                      <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                                   </svg>
+                                   Filters
+                                </a>
+                             </div>
+                          </div>
+
+                          <div class="d-flex mt-2 mt-lg-0">
+                             <div class="me-2 flex-grow-1">
+                                <!-- select option -->
+                                <select class="nice-option">
+                                   <option selected="">Show: 50</option>
+                                   <option value="10">10</option>
+                                   <option value="20">20</option>
+                                   <option value="30">30</option>
+                                </select>
+                             </div>
+                             <div>
+                                <!-- select option -->
+                                <select class="nice-option">
+                                   <option selected="">Sort by: Featured</option>
+                                   <option value="Low to High">Price: Low to High</option>
+                                   <option value="High to Low">Price: High to Low</option>
+                                   <option value="Release Date">Release Date</option>
+                                   <option value="Avg. Rating">Avg. Rating</option>
+                                </select>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                    <!-- row -->
+                    <div class="product">
+                    <div class="row g-4 row-cols-xl-3 row-cols-lg-3 row-cols-2 row-cols-md-2 mt-1">
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/17.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="shop-single.html">
+                                                OnePlus CE2 Lite 5G (6GB RAM)
+                                            </a></h5>
+                                        <div class="d-block d-sm-block d-md-flex d-lg-flex  justify-content-between align-items-center">
+                                            <span class="text-muted strike-through"><s>$1500.00</s></span>
+                                            <span class="sell-price">$1200.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                    class="bi bi-heart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                    class="bi bi-eye"></i></a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                    class="bi bi-arrow-left-right"></i> </a>
+                                        </div>
+                                        <span class="discount-badge">20% OFF</span>
+                                    </div>
+                                    <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                        Cart</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/1.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="shop-single.html">
+                                            Canon 3000D DSLR Camera (Black)
+                                            </a></h5>
+                                        <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                                            <span class="text-muted strike-through"><s>$254.00</s></span>
+                                            <span class="sell-price">$200.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                    class="bi bi-heart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                    class="bi bi-eye"></i></a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                    class="bi bi-arrow-left-right"></i> </a>
+                                        </div>
+                                        <span class="discount-badge">10% OFF</span>
+                                    </div>
+                                    <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                        Cart</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/2.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="shop-single.html">
+                                            Wireless Mechanical Mouse 
+                                            </a></h5>
+                                        <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                                            <span class="text-muted strike-through"><s>$190.00</s></span>
+                                            <span class="sell-price">$180.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                    class="bi bi-heart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                    class="bi bi-eye"></i></a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                    class="bi bi-arrow-left-right"></i> </a>
+                                        </div>
+                                        <span class="discount-badge">5% OFF</span>
+                                    </div>
+                                    <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                        Cart</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/3.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="shop-single.html">
+                                              Wired USB Desktop Keyboard
+                                            </a></h5>
+                                        <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                                            <span class="text-muted strike-through"><s>$150.00</s></span>
+                                            <span class="sell-price">$100.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                    class="bi bi-heart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                    class="bi bi-eye"></i></a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                    class="bi bi-arrow-left-right"></i> </a>
+                                        </div>
+                                        <span class="discount-badge">30% OFF</span>
+                                    </div>
+                                    <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                        Cart</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/4.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="shop-single.html">
+                                            SAMSUNG Galaxy Book4 Intel Core 5 120U
+                                            </a></h5>
+                                        <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                                            <span class="text-muted strike-through"><s>$400.00</s></span>
+                                            <span class="sell-price">$300.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                    class="bi bi-heart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                    class="bi bi-eye"></i></a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                    class="bi bi-arrow-left-right"></i> </a>
+                                        </div>
+                                        <span class="discount-badge">10% OFF</span>
+                                    </div>
+                                    <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                        Cart</a>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="card product-card">
+                                    <a href="shop-single.html">
+                                        <img src="./assets/images/product/5.png" class="card-img-top"
+                                            alt="eCommerce Template">
+                                    </a>
+                                    <div class="card-body">
+                                        <h5 class="card-title"><a href="shop-single.html">
+                                            Rockerz 551 ANC with Hybrid ANC Headphone
+                                            </a></h5>
+                                        <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                                            <span class="text-muted strike-through"><s>$1300.00</s></span>
+                                            <span class="sell-price">$1200.00</span>
+                                        </div>
+                                        <div class="icons">
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                    class="bi bi-heart"></i> </a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                    class="bi bi-eye"></i></a>
+                                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                    class="bi bi-arrow-left-right"></i> </a>
+                                        </div>
+                                        <span class="discount-badge">30% OFF</span>
+                                    </div>
+                                    <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                        Cart</a>
+                                </div>
+                            </div>
+                    </div>
+                    </div>
+                   
+                    <!-- row -->
+                    <div class="row mt-5">
+                       <div class="col">
+                          <!-- nav -->
+                          <nav>
+                             <ul class="pagination">
+                                <li class="page-item disabled">
+                                   <a class="page-link mx-1" href="#" aria-label="Previous">
+                                      <i class="bi bi-arrow-left-short"></i>
+                                   </a>
+                                </li>
+                                <li class="page-item"><a class="page-link mx-1 active" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link mx-1" href="#">2</a></li>
+
+                                <li class="page-item"><a class="page-link mx-1" href="#">...</a></li>
+                                <li class="page-item"><a class="page-link mx-1" href="#">12</a></li>
+                                <li class="page-item">
+                                   <a class="page-link mx-1" href="#" aria-label="Next">
+                                      <i class=" bi bi-arrow-right-short "></i>
+                                   </a>
+                                </li>
+                             </ul>
+                          </nav>
+                       </div>
+                    </div>
+                 </section>
+              </div>
+           </div>
+        </div>
+    </div>
+    </main>
+    <!-- Footer Section -->
+    <footer class="mt-100">
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <p class="m-0 p-0 fw-medium mb-2 text-uppercase ">Navigate</p>
+                        <ul class="m-0 p-0 list-unstyled">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Shipping & Returns</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <p class="m-0 p-0 fw-medium mb-2 text-uppercase">Categories</p>
+                        <ul class="m-0 p-0 list-unstyled">
+                            <li><a href="#">Laptop Accessories</a></li>
+                            <li><a href="#">Mobile Accessories</a></li>
+                            <li><a href="#">Camera Accessories</a></li>
+                            <li><a href="#">Game Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <p class="m-0 p-0 fw-medium mb-2 text-uppercase">Help</p>
+                        <ul class="m-0 p-0 list-unstyled">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <p class="m-0 p-0 fw-medium mb-2 text-uppercase">Address</p>
+                        <span>
+                            Widgetify Inc. <br>
+                            456 Gadget Avenue <br>
+                            Techtown, TX 67890 <br>
+                            United States of America
+                        </span>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between bottom-footer">
+                    <div class="mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <img src="./assets/images/payment-method.png" alt="eCommerce Html Template">
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./assets/images/google-store.webp" alt="eCommerce Html Template">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/apple-store.webp" alt="eCommerce Html Template">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery.ez-plus.js"></script>
+    <script src="./assets/plugin/nice-select/jquery.nice-select.min.js"></script>
+    <script src="./assets/plugin/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="./assets/plugin/nouislider/nouislider.min.js"></script>
+    <script src="./assets/plugin/slick/slick.min.js"></script>
+    <script src="./assets/js/timer.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

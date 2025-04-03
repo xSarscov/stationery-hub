@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Single | ElectroMart eCommerce</title>
+    <meta name="description" content="" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/font/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/plugin/nice-select/nice-select.css">
+    <link rel="stylesheet" href="./assets/plugin/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/plugin/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/plugin/nouislider/nouislider.min.css">
+    <link rel="stylesheet" href="./assets/plugin/slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="border-bottom">
+            <div class="bg-light py-1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-12 text-center text-md-start"><span>Super Deals Today - 10% Off All Category </span></div>
+                        <div class="col-6 text-end d-none d-md-block">
+                            <div class="d-flex justify-content-end lang">
+                                <select class="nice-option">
+                                    <option value="English">
+                                        <span class="me-2">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#selectedlang)">
+                                                    <path d="M0 0.5H16V12.5H0V0.5Z" fill="#012169"></path>
+                                                    <path
+                                                        d="M1.875 0.5L7.975 5.025L14.05 0.5H16V2.05L10 6.525L16 10.975V12.5H14L8 8.025L2.025 12.5H0V11L5.975 6.55L0 2.1V0.5H1.875Z"
+                                                        fill="white"></path>
+                                                    <path
+                                                        d="M10.6 7.525L16 11.5V12.5L9.225 7.525H10.6ZM6 8.025L6.15 8.9L1.35 12.5H0L6 8.025ZM16 0.5V0.575L9.775 5.275L9.825 4.175L14.75 0.5H16ZM0 0.5L5.975 4.9H4.475L0 1.55V0.5Z"
+                                                        fill="#C8102E"></path>
+                                                    <path d="M6.025 0.5V12.5H10.025V0.5H6.025ZM0 4.5V8.5H16V4.5H0Z"
+                                                        fill="white"></path>
+                                                    <path d="M0 5.325V7.725H16V5.325H0ZM6.825 0.5V12.5H9.225V0.5H6.825Z"
+                                                        fill="#C8102E"></path>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="selectedlang">
+                                                        <rect width="16" height="12" fill="white"
+                                                            transform="translate(0 0.5)"></rect>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                        English
+                                    </option>
+
+                                    <option value="Hindi"> <span class="me-2">
+                                            <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_5543_19751)">
+                                                    <path d="M0 8.5H16V12.5H0V8.5Z" fill="#FFCE00"></path>
+                                                    <path d="M0 0.5H16V4.5H0V0.5Z" fill="black"></path>
+                                                    <path d="M0 4.5H16V8.5H0V4.5Z" fill="#DD0000"></path>
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_5543_19751">
+                                                        <rect width="16" height="12" fill="white"
+                                                            transform="translate(0 0.5)"></rect>
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </span>
+                                        Hindi
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-4">
+                <div class="container">
+                    <div class="row w-100 align-items-center gx-lg-2 gx-0">
+                        <div class="col-xxl-2 col-lg-3 col-md-6 col-5">
+                            <a class="navbar-brand d-none d-lg-block" href="index.html">
+                                <img src="./assets/images/logo.png" alt="eCommerce HTML Template">
+                            </a>
+                            <div class="d-flex justify-content-between w-100 d-lg-none">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="./assets/images/logo.png" alt="eCommerce HTML Template">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xxl-8 col-lg-7 d-none d-lg-block">
+                            <form action="#">
+                                <div class="input-group">
+                                    <input class="form-control" type="search" placeholder="Search for products">
+                                    <span class="input-group-append">
+                                        <button class="btn bg-white border border-start-0 ms-n10 rounded-0 rounded-end"
+                                            type="button">
+                                            <span class="bi bi-search"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-lg-2 col-xxl-2 text-end col-md-6 col-7">
+                            <div class="list-inline">
+                                <div class="list-inline-item me-3 me-lg-4">
+                                    <a href="wishlist.html" class="text-muted position-relative">
+                                        <i class="bi bi-heart"></i>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                            5
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="list-inline-item me-3 me-lg-4">
+                                    <a href="login.html" class="text-muted">
+                                        <i class="bi bi-person"></i>
+                                    </a>
+                                </div>
+                                <div class="list-inline-item me-3 me-lg-0">
+                                    <a class="text-muted position-relative" href="cart.html">
+                                        <i class="bi bi-cart"></i>
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                                            1
+                                            <span class="visually-hidden">unread messages</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="list-inline-item d-inline-block d-lg-none">
+                                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="offcanvas"
+                                        data-bs-target="#navbar-default" aria-controls="navbar-default"
+                                        aria-label="Toggle navigation">
+                                         <i class="bi bi-text-indent-left"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light navbar-default py-0 pb-lg-2"
+                aria-label="Offcanvas navbar large">
+                <div class="container">
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar-default"
+                        aria-labelledby="navbar-defaultLabel">
+                        <div class="offcanvas-header pb-1">
+                            <a href="index.html"><img src="./assets/images/logo.png"
+                                    alt="eCommerce HTML Template"></a>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="d-block d-lg-none mb-4">
+                                <form action="#">
+                                    <div class="input-group">
+                                        <input class="form-control" type="search" placeholder="Search for products">
+                                        <span class="input-group-append">
+                                            <button
+                                                class="btn bg-white border border-start-0 ms-n10 rounded-0 rounded-end"
+                                                type="button">
+                                                <span class="bi bi-search"></span>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="d-block d-lg-none mb-4">
+                                <a class="btn btn-primary w-100 d-flex justify-content-center align-items-center collapsed"
+                                    data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample">
+                                    <span class="me-2">
+                                        <i class="bi bi-grid"></i>
+                                    </span>
+                                    All Categories
+                                </a>
+                                <div class="mt-2 collapse" id="collapseExample">
+                                    <div class="card card-body">
+                                        <ul class="mb-0 list-unstyled">
+                                            <li><a class="dropdown-item" href="#">Laptop Accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Mobile Accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Camera Accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Games</a></li>
+                                            <li><a class="dropdown-item" href="#">Smart Wearables</a></li>
+                                            <li><a class="dropdown-item" href="#">Smart Home Automation</a></li>
+                                            <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dropdown me-3 d-none d-lg-block">
+                                <button class="btn btn-primary px-6" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <span class="me-1">
+                                        <i class="bi bi-grid"></i>
+                                    </span>
+                                    All Categories
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Laptop Accessories</a></li>
+                                    <li><a class="dropdown-item" href="#">Mobile Accessories</a></li>
+                                    <li><a class="dropdown-item" href="#">Camera Accessories</a></li>
+                                    <li><a class="dropdown-item" href="#">Games</a></li>
+                                    <li><a class="dropdown-item" href="#">Smart Wearables</a></li>
+                                    <li><a class="dropdown-item" href="#">Smart Home Automation</a></li>
+                                    <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul class="navbar-nav align-items-center">
+                                    <li class="nav-item dropdown w-100 w-lg-auto">
+                                        <a class="nav-link" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown w-100 w-lg-auto">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="shop.html">Shop Page - Filter</a></li>
+                                            <li><a class="dropdown-item" href="shop-single.html">Shop Single</a></li>
+                                            <li><a class="dropdown-item" href="wishlist.html">Shop Wishlist</a></li>
+                                            <li><a class="dropdown-item" href="cart.html">Shop Cart</a></li>
+                                            <li><a class="dropdown-item" href="checkout.html">Shop Checkout</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown w-100 w-lg-auto dropdown-fullwidth">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">Mega menu</a>
+                                        <div class="dropdown-menu pb-0">
+                                            <div class="row p-2 p-lg-4">
+                                                <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                    <h6 class="text-primary ps-3">Laptop Accessories</h6>
+                                                    <a class="dropdown-item" href="#">Mouse</a>
+                                                    <a class="dropdown-item" href="#">Keyboard</a>
+                                                    <a class="dropdown-item" href="#">USB</a>
+                                                    <a class="dropdown-item" href="#">Data Cards</a>
+                                                    <a class="dropdown-item" href="#">Router</a>
+                                                    <a class="dropdown-item" href="#">Battery</a>
+                                                    <a class="dropdown-item" href="#">Adapter</a>
+                                                    <a class="dropdown-item" href="#">UPS</a>
+                                                </div>
+                                                <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                    <h6 class="text-primary ps-3">Mobile Accessories</h6>
+                                                    <a class="dropdown-item" href="#">Screen Guards</a>
+                                                    <a class="dropdown-item" href="#">Plain Cases</a>
+                                                    <a class="dropdown-item" href="#">Mobile Cables</a>
+                                                    <a class="dropdown-item" href="#">Mobile Charger</a>
+                                                    <a class="dropdown-item" href="#">Camera Lens</a>
+                                                    <a class="dropdown-item" href="#">Mobile Flash</a>
+                                                    <a class="dropdown-item" href="#">Power Bank</a>
+                                                    <a class="dropdown-item" href="#">Mobile USB</a>
+                                                </div>
+                                                <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                    <h6 class="text-primary ps-3">Camera Accessories</h6>
+                                                    <a class="dropdown-item" href="#">Instant Camera</a>
+                                                    <a class="dropdown-item" href="#">Drone</a>
+                                                    <a class="dropdown-item" href="#">DSLR</a>
+                                                    <a class="dropdown-item" href="#">Flashes</a>
+                                                    <a class="dropdown-item" href="#">Sports & Action</a>
+                                                    <a class="dropdown-item" href="#">Camera Lens</a>
+                                                    <a class="dropdown-item" href="#">Camera tripods</a>
+                                                    <a class="dropdown-item" href="#">Point & Shoot</a>
+                                                </div>
+                                                <div class="col-lg-3 col-12 mb-4 mb-lg-0">
+                                                    <div class="position-relative">
+                                                        <img src="./assets/images/category/special-offer.png"
+                                                            class="rounded w-100" alt="eCommerce HTML Template"
+                                                            class="img-fluid">
+                                                        <div class="position-absolute ps-6 mt-8 top-0 p-4">
+                                                            <h5 class="mb-0">
+                                                                Dont miss this
+                                                                <br>
+                                                                offer today.
+                                                            </h5>
+                                                            <a href="#" class="btn btn-cart btn-sm mt-3">Shop Now</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown w-100 w-lg-auto">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                            <li><a class="dropdown-item" href="blog-single.html">Blog Single</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="about.html">About us</a></li>
+                                            <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown w-100 w-lg-auto">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">Account</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="login.html">Sign in</a></li>
+                                                <li><a class="dropdown-item" href="signup.html">Signup</a></li>
+                                                <li><a class="dropdown-item" href="forgot-password.html">Forgot Password</a></li>
+                                            </ul>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="product-details">
+        <main>
+			<div class="mt-4">
+				<div class="container">
+					<!-- row -->
+					<div class="row">
+						<!-- col -->
+						<div class="col-12">
+							<!-- breadcrumb -->
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb mb-0">
+									<li class="breadcrumb-item"><a href="#">Home</a></li>
+									<li class="breadcrumb-item"><a href="#">Camera</a></li>
+									<li class="breadcrumb-item active" aria-current="page">Canon R100 Mirrorless</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="mt-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-5 col-xl-6 pe-lg-50">
+                            <div class="zoom border rounded" id="product-img-zoom"  data-zoom-image="./assets/images/product/ps1.png">
+                                <img src="./assets/images/product/ps1.png" class="w-100 rounded" alt="eCommerce Template">
+                            </div>
+							<div class="product-tools mt-3">
+								<div class="thumbnails row g-3 slider-nav" id="productThumbnails" aria-label="Carousel Pagination">
+									<div class="col-3">
+										<div class="thumbnails-img border rounded">
+											<img src="./assets/images/product/ps1.png" class="w-100 rounded" alt="eCommerce Template">
+										</div>
+									</div>
+                                    <div class="col-3">
+										<div class="thumbnails-img border rounded">
+											<img src="./assets/images/product/ps2.png" class="w-100 rounded" alt="eCommerce Template">
+										</div>
+									</div>
+                                    <div class="col-3">
+										<div class="thumbnails-img border rounded">
+											<img src="./assets/images/product/ps3.png" class="w-100 rounded" alt="eCommerce Template">
+										</div>
+									</div>
+                                    <div class="col-3">
+										<div class="thumbnails-img border rounded">
+											<img src="./assets/images/product/ps4.png" class="w-100 rounded" alt="eCommerce Template">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-7 col-xl-6">
+							<div class="ps-lg-10 mt-5 mt-md-0">
+								<h1 class="mb-1">Canon R100 Mirrorless</h1>
+								<div class="mb-4">
+									<small class="text-warning">
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-half"></i>
+									</small>
+									<a href="#" class="ms-2">(30 reviews)</a>
+								</div>
+								<div class="fs-4">
+									<span class="fw-bold text-dark">$32</span>
+									<span class="text-muted"><s>$35</s></span>
+									<span><small class="fs-6 ms-2 text-danger">20% Off</small></span>
+								</div>
+								<!-- hr -->
+								<hr class="my-4">
+								<div class="mb-5">
+									<div class="color-section mb-4">
+                                        <p class="fw-bold">Color</p>
+                                        <div class="custom-radios">
+                                            <div class="color-item">
+                                              <input type="radio" id="color-1" name="color" value="#000" checked>
+                                              <label for="color-1">
+                                                <span style="--color: #000;">
+                                                  <img src="./assets/images/icon/check-icn.svg" alt="Checked Icon" />
+                                                </span>
+                                              </label>
+                                            </div>
+                                            <div class="color-item">
+                                              <input type="radio" id="color-2" name="color" value="#f1c40f">
+                                              <label for="color-2">
+                                                <span style="--color: #f1c40f;">
+                                                  <img src="./assets/images/icon/check-icn.svg" alt="Checked Icon" />
+                                                </span>
+                                              </label>
+                                            </div>
+                                            <div class="color-item">
+                                              <input type="radio" id="color-3" name="color" value="#3e74c3c">
+                                              <label for="color-3">
+                                                <span style="--color: #e74c3c;">
+                                                  <img src="./assets/images/icon/check-icn.svg" alt="Checked Icon" />
+                                                </span>
+                                              </label>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="size-section mb-4">
+                                        <p class="fw-bold">Size</p>
+                                        <div class="size-custom-radios ">
+                                            <div class="size-item">
+                                              <input type="radio" id="size-s" name="size" value="s" checked>
+                                              <label for="size-s">
+                                                  <span>S</span>
+                                              </label>
+                                            </div>
+                                            <div class="size-item">
+                                              <input type="radio" id="size-m" name="size" value="m">
+                                              <label for="size-m">
+                                                <span>
+                                                    M
+                                                </span>
+                                              </label>
+                                            </div>
+                                            <div class="size-item">
+                                              <input type="radio" id="size-l" name="size" value="l">
+                                              <label for="size-l">
+                                                <span>
+                                                    L
+                                                </span>
+                                              </label>
+                                            </div>
+                                          </div>
+                                    </div>
+								</div>
+
+
+                                <div class="product-action">
+
+                                    <div class="qty-container">
+                                        <button class="qty-btn-minus count-decreament" type="button"><i class="bi bi-dash"></i></button>
+                                        <input type="number" name="qty" value="1" class="input-qty input-cornered"/>
+                                        <button class="qty-btn-plus count-increament" type="button"><i class="bi bi-plus"></i></button>
+                                    </div>
+
+                                    <ul class="d-flex list-unstyled mt-4">
+                                       <li>
+                                        <a href="cart.html" class="btn btn-cart"><i class="bi bi-bag me-2"></i>Add to cart</a>
+                                       </li>
+                                       <li>
+										<a class="btn btn-light" href="#" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
+                                       </li>
+                                       <li>
+										<a class="btn btn-light" href="shop-wishlist.html" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Wishlist" data-bs-original-title="Wishlist"><i class="bi bi-heart"></i></a>
+                                       </li>
+                                    </ul>
+                                </div>
+
+								<hr class="my-4">
+								<div>
+									<!-- table -->
+									<table class="table table-borderless mb-0">
+										<tbody>
+											<tr>
+												<td>SKU:</td>
+												<td>554578787</td>
+											</tr>
+											<tr>
+												<td>Availability:</td>
+												<td>In Stock</td>
+											</tr>
+											<tr>
+												<td>Type:</td>
+												<td>Camera Accessories</td>
+											</tr>
+											<tr>
+												<td>Shipping:</td>
+												<td>
+                                                    Free shipping.
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="mt-100">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<ul class="nav nav-pills nav-lb-tab" id="myTab" role="tablist">
+								<!-- nav item -->
+								<li class="nav-item" role="presentation">
+									<!-- btn -->
+									<button class="nav-link active" id="product-tab" data-bs-toggle="tab" data-bs-target="#product-tab-pane" type="button" role="tab" aria-controls="product-tab-pane" aria-selected="true">
+										Product Details
+									</button>
+								</li>
+								<!-- nav item -->
+								<li class="nav-item" role="presentation">
+									<!-- btn -->
+									<button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews-tab-pane" type="button" role="tab" aria-controls="reviews-tab-pane" aria-selected="false" tabindex="-1">
+										Reviews
+									</button>
+								</li>
+								
+							</ul>
+							<!-- tab content -->
+							<div class="tab-content" id="myTabContent">
+								<!-- tab pane -->
+								<div class="tab-pane fade show active" id="product-tab-pane" role="tabpanel" aria-labelledby="product-tab" tabindex="0">
+									<div class="my-5">
+										<div class="mb-5">
+											<!-- text -->
+											<p class="mb-0">
+												Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, tellus iaculis urna bibendum in lacus, integer. Id imperdiet vitae varius sed magnis eu nisi nunc sit. Vel,
+												varius habitant ornare ac rhoncus. Consequat risus facilisis ante ipsum netus risus adipiscing sagittis sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+											</p>
+										</div>
+									</div>
+								</div>
+								
+								<div class="tab-pane fade" id="reviews-tab-pane" role="tabpanel" aria-labelledby="reviews-tab" tabindex="0">
+									<div class="my-5">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="mb-5">
+													<div class="d-flex border-bottom pb-2 mb-2">
+														<div>
+															<h6 class="mb-1">Devid1</h6>
+															<p class="small">
+																<span class="text-muted">01 January 2000</span>
+																<span class="text-primary ms-3 fw-bold">Verified</span>
+															</p>
+															<div class="mb-2">
+																<i class="bi bi-star-fill text-warning"></i>
+																<i class="bi bi-star-fill text-warning"></i>
+																<i class="bi bi-star-fill text-warning"></i>
+																<i class="bi bi-star-fill text-warning"></i>
+																<i class="bi bi-star-fill text-warning"></i>
+															</div>
+															<p>
+															  Nice Product	
+                                                            </p>
+														</div>
+													</div>
+												</div>
+											</div>
+                                            <div class="col-md-12">
+												<div class="mb-5">
+													<div class="d-flex border-bottom pb-2 mb-2">
+														<div>
+															<h6 class="mb-1">Devid2</h6>
+															<p class="small">
+																<span class="text-muted">01 January 2000</span>
+																<span class="text-primary ms-3 fw-bold">Verified</span>
+															</p>
+															<div class="mb-2">
+																<i class="bi bi-star-fill text-warning"></i>
+																<i class="bi bi-star-fill text-warning"></i>
+																<i class="bi bi-star-fill text-warning"></i>
+																<i class="bi bi-star-fill text-warning"></i>
+																<i class="bi bi-star-half text-warning"></i>
+															</div>
+															<p>
+															  Nice Product	
+                                                            </p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="my-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<h3>Related Items</h3>
+						</div>
+					</div>
+                    <div class="product mt-4">
+                        <div class="owl-carousel product-slider">
+                            <div class="card product-card mx-2">
+                                <a href="shop-single.html">
+                                    <img src="./assets/images/product/17.png" class="card-img-top"
+                                        alt="eCommerce Template">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="shop-single.html">
+                                            OnePlus CE2 Lite 5G (6GB RAM)
+                                        </a></h5>
+                                    <div class="d-block d-sm-block d-md-flex d-lg-flex  justify-content-between align-items-center">
+                                        <span class="text-muted strike-through"><s>$1500.00</s></span>
+                                        <span class="sell-price">$1200.00</span>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                class="bi bi-heart"></i> </a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                class="bi bi-eye"></i></a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                class="bi bi-arrow-left-right"></i> </a>
+                                    </div>
+                                    <span class="discount-badge">20% OFF</span>
+                                </div>
+                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                    Cart</a>
+                            </div>
+                            <div class="card product-card mx-2">
+                                <a href="shop-single.html">
+                                    <img src="./assets/images/product/1.png" class="card-img-top"
+                                        alt="eCommerce Template">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="shop-single.html">
+                                        Canon 3000D DSLR Camera (Black)
+                                        </a></h5>
+                                    <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                                        <span class="text-muted strike-through"><s>$254.00</s></span>
+                                        <span class="sell-price">$200.00</span>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                class="bi bi-heart"></i> </a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                class="bi bi-eye"></i></a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                class="bi bi-arrow-left-right"></i> </a>
+                                    </div>
+                                    <span class="discount-badge">10% OFF</span>
+                                </div>
+                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                    Cart</a>
+                            </div>
+                            <div class="card product-card mx-2">
+                                <a href="shop-single.html">
+                                    <img src="./assets/images/product/2.png" class="card-img-top"
+                                        alt="eCommerce Template">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="shop-single.html">
+                                        Wireless Mechanical Mouse 
+                                        </a></h5>
+                                    <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                                        <span class="text-muted strike-through"><s>$190.00</s></span>
+                                        <span class="sell-price">$180.00</span>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                class="bi bi-heart"></i> </a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                class="bi bi-eye"></i></a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                class="bi bi-arrow-left-right"></i> </a>
+                                    </div>
+                                    <span class="discount-badge">5% OFF</span>
+                                </div>
+                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                    Cart</a>
+                            </div>
+                            <div class="card product-card mx-2">
+                                <a href="shop-single.html">
+                                    <img src="./assets/images/product/3.png" class="card-img-top"
+                                        alt="eCommerce Template">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="shop-single.html">
+                                          Wired USB Desktop Keyboard
+                                        </a></h5>
+                                    <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                                        <span class="text-muted strike-through"><s>$150.00</s></span>
+                                        <span class="sell-price">$100.00</span>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                class="bi bi-heart"></i> </a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                class="bi bi-eye"></i></a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                class="bi bi-arrow-left-right"></i> </a>
+                                    </div>
+                                    <span class="discount-badge">30% OFF</span>
+                                </div>
+                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                    Cart</a>
+                            </div>
+                            <div class="card product-card mx-2">
+                                <a href="shop-single.html">
+                                    <img src="./assets/images/product/4.png" class="card-img-top"
+                                        alt="eCommerce Template">
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="shop-single.html">
+                                        SAMSUNG Galaxy Book4 Intel Core 5 120U
+                                        </a></h5>
+                                    <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                                        <span class="text-muted strike-through"><s>$400.00</s></span>
+                                        <span class="sell-price">$300.00</span>
+                                    </div>
+                                    <div class="icons">
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Wishlist"><i
+                                                class="bi bi-heart"></i> </a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Quick view"><i
+                                                class="bi bi-eye"></i></a>
+                                        <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
+                                                class="bi bi-arrow-left-right"></i> </a>
+                                    </div>
+                                    <span class="discount-badge">10% OFF</span>
+                                </div>
+                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
+                                    Cart</a>
+                            </div>
+                        </div>
+                    </div>
+				</div>
+			</section>
+		</main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="mt-100">
+        <div class="container">
+            <div class="footer">
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <p class="m-0 p-0 fw-medium mb-2 text-uppercase ">Navigate</p>
+                        <ul class="m-0 p-0 list-unstyled">
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Shipping & Returns</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <p class="m-0 p-0 fw-medium mb-2 text-uppercase">Categories</p>
+                        <ul class="m-0 p-0 list-unstyled">
+                            <li><a href="#">Laptop Accessories</a></li>
+                            <li><a href="#">Mobile Accessories</a></li>
+                            <li><a href="#">Camera Accessories</a></li>
+                            <li><a href="#">Game Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <p class="m-0 p-0 fw-medium mb-2 text-uppercase">Help</p>
+                        <ul class="m-0 p-0 list-unstyled">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <p class="m-0 p-0 fw-medium mb-2 text-uppercase">Address</p>
+                        <span>
+                            Widgetify Inc. <br>
+                            456 Gadget Avenue <br>
+                            Techtown, TX 67890 <br>
+                            United States of America
+                        </span>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between bottom-footer">
+                    <div class="mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <img src="./assets/images/payment-method.png" alt="eCommerce Html Template">
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./assets/images/google-store.webp" alt="eCommerce Html Template">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/images/apple-store.webp" alt="eCommerce Html Template">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery.ez-plus.js"></script>
+    <script src="./assets/plugin/nice-select/jquery.nice-select.min.js"></script>
+    <script src="./assets/plugin/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="./assets/plugin/nouislider/nouislider.min.js"></script>
+    <script src="./assets/plugin/slick/slick.min.js"></script>
+    <script src="./assets/js/timer.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
