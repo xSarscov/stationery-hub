@@ -7,3 +7,11 @@ class HomeView(TemplateView):
 
 class ShopView(TemplateView):
     template_name = 'stationery/shop.html'
+
+class ShopProductView(TemplateView):
+    template_name= 'stationery/shop-single.html'
+
+class ContactView(TemplateView):
+    template_name='stationery/contact.html'
+
+

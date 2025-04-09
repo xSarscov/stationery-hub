@@ -42,22 +42,21 @@ Compras
                    <div class="offcanvas-body ps-lg-2 pt-lg-0">
                     <div class="my-4">
                         <!-- title -->
-                        <h5 class="mb-3">Categories</h5>
+                        <h5 class="mb-3">Categorias</h5>
                         <!-- nav -->
                         <ul class="nav nav-category" id="categoryCollapseMenu">
                            <li class="nav-item border-bottom w-100">
                               <a href="#" class="nav-link collapsed" data-bs-toggle="collapse" data-bs-target="#categoryFlushOne" aria-expanded="false" aria-controls="categoryFlushOne">
-                                 Laptop Accessories
+                                 Cuadernos
                                  <i class="bi bi-chevron-right"></i>
                               </a>
                               <!-- accordion collapse -->
                               <div id="categoryFlushOne" class="accordion-collapse collapse" data-bs-parent="#categoryCollapseMenu">
                                  <div>
                                     <ul class="nav flex-column ms-3">
-                                       <li class="nav-item"><a href="#!" class="nav-link">Mouse</a></li>
-                                       <li class="nav-item"><a href="#!" class="nav-link">Keyboard</a></li>
-                                       <li class="nav-item"><a href="#!" class="nav-link">USB</a></li>
-                                       <li class="nav-item"><a href="#!" class="nav-link">Data Cards</a></li>
+                                       <li class="nav-item"><a href="#!" class="nav-link">Cuadernos Universitarios</a></li>
+                                       <li class="nav-item"><a href="#!" class="nav-link">Cuadernos Rayados</a></li>
+                                       <li class="nav-item"><a href="#!" class="nav-link">Cuadernos Cuadriculados</a></li>
                                      </ul>
                                  </div>
                               </div>
@@ -66,14 +65,15 @@ Compras
                      </div>
                      <div class="my-4 border-bottom pb-3">
                         <!-- price -->
-                        <h5 class="mb-3">Price</h5>
+                        <h5 class="mb-3">Precio</h5>
                         <div>
                            <!-- range -->
                            <div id="priceRange" class="mb-3"></div>
-                           <small class="text-muted">Price:</small>
+                           <small class="text-muted">Precio:</small>
                            <span id="priceRange-value" class="small"></span>
                         </div>
                      </div>
+
                      <div class="my-4 border-bottom pb-3">
                         <h5 class="mb-3">Color</h5>
                         <!-- form check -->
@@ -96,7 +96,7 @@ Compras
                         </div>
                      </div>
                      <div class="mt-4">
-                        <h5 class="mb-3">Rating</h5>
+                        <h5 class="mb-3">Clasificación</h5>
                         <div>
                            <!-- form check -->
                            <div class="form-check mb-2">
@@ -168,7 +168,7 @@ Compras
                 <!-- list icon -->
                 <div class="d-lg-flex justify-content-between align-items-center">
                    <div class="mb-3 mb-lg-0">
-                       <h1 class="filter-title">Mi (Showing 20 of 2405 items)</h1>
+                       <h1 class="filter-title">Mi (Mostrando 20 de 2405 productos)</h1>
                    </div>
 
                    <!-- icon -->
@@ -188,7 +188,7 @@ Compras
                          <div class="me-2 flex-grow-1">
                             <!-- select option -->
                             <select class="nice-option">
-                               <option selected="">Show: 50</option>
+                               <option selected="">Muestra: 50</option>
                                <option value="10">10</option>
                                <option value="20">20</option>
                                <option value="30">30</option>
@@ -197,11 +197,11 @@ Compras
                          <div>
                             <!-- select option -->
                             <select class="nice-option">
-                               <option selected="">Sort by: Featured</option>
-                               <option value="Low to High">Price: Low to High</option>
-                               <option value="High to Low">Price: High to Low</option>
-                               <option value="Release Date">Release Date</option>
-                               <option value="Avg. Rating">Avg. Rating</option>
+                               <option selected="">Ordenar por: Destacados</option>
+                               <option value="Low to High">Precio: bajo a alto</option>
+                               <option value="High to Low">Precio: Alto a bajo</option>
+                               <option value="Release Date">Fecha de lanzamiento</option>
+                               <option value="Avg. Rating">Rating Promedio</option>
                             </select>
                          </div>
                       </div>
@@ -233,7 +233,7 @@ Compras
                                         <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
                                                 class="bi bi-arrow-left-right"></i> </a>
                                     </div>
-                                    <span class="discount-badge">20% OFF</span>
+                                    <span class="discount-badge">20% de descuento</span>
                                 </div>
                                 <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
                                     Cart</a>
@@ -261,7 +261,7 @@ Compras
                                         <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
                                                 class="bi bi-arrow-left-right"></i> </a>
                                     </div>
-                                    <span class="discount-badge">10% OFF</span>
+                                    <span class="discount-badge">10% de descuento</span>
                                 </div>
                                 <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
                                     Cart</a>
@@ -289,7 +289,7 @@ Compras
                                         <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
                                                 class="bi bi-arrow-left-right"></i> </a>
                                     </div>
-                                    <span class="discount-badge">5% OFF</span>
+                                    <span class="discount-badge">5% de descuento</span>
                                 </div>
                                 <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
                                     Cart</a>
@@ -298,7 +298,8 @@ Compras
                         <div class="col-md-3">
                             <div class="card product-card">
                                 <a href="shop-single.html">
-                                    <img src="./assets/images/product/3.png" class="card-img-top"
+                                 
+                                    <img src={% static 'stationery/images/product/3.png' %}  class="card-img-top"
                                         alt="eCommerce Template">
                                 </a>
                                 <div class="card-body">
@@ -317,7 +318,7 @@ Compras
                                         <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
                                                 class="bi bi-arrow-left-right"></i> </a>
                                     </div>
-                                    <span class="discount-badge">30% OFF</span>
+                                    <span class="discount-badge">30% de descuento</span>
                                 </div>
                                 <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
                                     Cart</a>
@@ -326,7 +327,7 @@ Compras
                         <div class="col-md-3">
                             <div class="card product-card">
                                 <a href="shop-single.html">
-                                    <img src="./assets/images/product/4.png" class="card-img-top"
+                                    <img src={% static 'stationery/images/product/4.png' %}  class="card-img-top"
                                         alt="eCommerce Template">
                                 </a>
                                 <div class="card-body">
@@ -345,7 +346,7 @@ Compras
                                         <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
                                                 class="bi bi-arrow-left-right"></i> </a>
                                     </div>
-                                    <span class="discount-badge">10% OFF</span>
+                                    <span class="discount-badge">10% de descuento</span>
                                 </div>
                                 <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
                                     Cart</a>
@@ -354,7 +355,7 @@ Compras
                         <div class="col-md-3">
                             <div class="card product-card">
                                 <a href="shop-single.html">
-                                    <img src="./assets/images/product/5.png" class="card-img-top"
+                                    <img src={% static 'stationery/images/product/5.png' %}   class="card-img-top"
                                         alt="eCommerce Template">
                                 </a>
                                 <div class="card-body">
@@ -373,7 +374,7 @@ Compras
                                         <a href="#" data-bs-toggle="tooltip" data-bs-placement="left" title="Compare"><i
                                                 class="bi bi-arrow-left-right"></i> </a>
                                     </div>
-                                    <span class="discount-badge">30% OFF</span>
+                                    <span class="discount-badge">30% de descuento</span>
                                 </div>
                                 <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Add to
                                     Cart</a>
