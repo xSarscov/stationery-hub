@@ -14,4 +14,7 @@ class ShopProductView(TemplateView):
 class ContactView(TemplateView):
     template_name='stationery/contact.html'
 
+class BlogView(TemplateView):
+    template_name='stationery/blog-single.html'
+
 
