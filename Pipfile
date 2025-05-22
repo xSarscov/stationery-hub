@@ -5,6 +5,11 @@ name = "pypi"
 
 [packages]
 django = "*"
+jsonschema = "*"
+django-jsonform = "*"
+django-jsoneditor = "*"
+psycopg2 = "*"
+pillow = "*"
 
 [dev-packages]
 
