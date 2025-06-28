@@ -17,8 +17,8 @@ Compras
                 <!-- breadcrumb -->
                 <nav aria-label="breadcrumb">
                    <ol class="breadcrumb mb-0">
-                      <li class="breadcrumb-item"><a href="#!">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#!">Shop</a></li>
+                      <li class="breadcrumb-item"><href="{% url 'home' %}">Home</href=></li>
+                      <li class="breadcrumb-item"><href="{% url 'shopProduct' %}">Shop</href=></li>
                       <li class="breadcrumb-item active" aria-current="page">Mi</li>
                    </ol>
                 </nav>
@@ -210,129 +210,121 @@ Compras
                 <!-- row -->
                 <div class="product">
                 <div class="row g-4 row-cols-xl-3 row-cols-lg-3 row-cols-2 row-cols-md-2 mt-1">
-                        <div class="col-md-3">
-                            <div class="card product-card">
-                                <a href="shop-single.html">
-                                             
-                                    <img src={% static 'stationery/images/product/espatulas.png' %} class="card-img-top"
-                                        alt="eCommerce Template">
-                                </a>
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="shop-single.html">
-                                            Espatulas
-                                        </a></h5>
-                                    <div class="d-block d-sm-block d-md-flex d-lg-flex  justify-content-between align-items-center">
-                                        <span class="text-muted strike-through"><s>$1500.00</s></span>
-                                        <span class="sell-price">$1200.00</span>
-                                    </div>
-                              
-                                    <span class="discount-badge">20% de descuento</span>
-                                </div>
-                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card product-card">
-                                <a href="shop-single.html">
-                                    <img src={% static 'stationery/images/product/engrapadora.png' %} class="card-img-top"
-                                        alt="eCommerce Template">
-                                </a>
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="shop-single.html">
-                                        Engrapadora con grapas incluidas
-                                        </a></h5>
-                                    <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
-                                        <span class="text-muted strike-through"><s>$254.00</s></span>
-                                        <span class="sell-price">$200.00</span>
-                                    </div>
-                                  
-                                    <span class="discount-badge">10% de descuento</span>
-                                </div>
-                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card product-card">
-                                <a href="shop-single.html">
-                                    <img src={% static 'stationery/images/product/lienzo.png' %} class="card-img-top"
-                                        alt="eCommerce Template">
-                                </a>
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="shop-single.html">
-                                        Lienzo 60x50cm
-                                        </a></h5>
-                                    <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
-                                        <span class="text-muted strike-through"><s>$190.00</s></span>
-                                        <span class="sell-price">$180.00</span>
-                                    </div>
-                                    
-                                    <span class="discount-badge">5% de descuento</span>
-                                </div>
-                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card product-card">
-                                <a href="shop-single.html">
-                                 
-                                    <img src={% static 'stationery/images/product/cuadernoU.png' %}  class="card-img-top"
-                                        alt="eCommerce Template">
-                                </a>
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="shop-single.html">
-                                          Cuaderno Universitario
-                                        </a></h5>
-                                    <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
-                                        <span class="text-muted strike-through"><s>$150.00</s></span>
-                                        <span class="sell-price">$100.00</span>
-                                    </div>
-                                   
-                                    <span class="discount-badge">30% de descuento</span>
-                                </div>
-                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card product-card">
-                                <a href="shop-single.html">
-                                    <img src={% static 'stationery/images/product/acuarelas.png' %}  class="card-img-top"
-                                        alt="eCommerce Template">
-                                </a>
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="shop-single.html">
-                                        Acuarelas
-                                        </a></h5>
-                                    <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
-                                        <span class="text-muted strike-through"><s>$400.00</s></span>
-                                        <span class="sell-price">$300.00</span>
-                                    </div>
-                                    
-                                    <span class="discount-badge">10% de descuento</span>
-                                </div>
-                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="card product-card">
-                                <a href="shop-single.html">
-                                    <img src={% static 'stationery/images/product/ColorespPaperM.png' %}   class="card-img-top"
-                                        alt="eCommerce Template">
-                                </a>
-                                <div class="card-body">
-                                    <h5 class="card-title"><a href="shop-single.html">
-                                        Colores Paper Mate 48 colores
-                                        </a></h5>
-                                    <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
-                                        <span class="text-muted strike-through"><s>$1300.00</s></span>
-                                        <span class="sell-price">$1200.00</span>
-                                    </div>
-                                   
-                                    <span class="discount-badge">30% de descuento</span>
-                                </div>
-                                <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
-                            </div>
-                        </div>
+    <div class="col-md-3">
+        <div class="card product-card">
+            <a href="{% url 'shopProduct' %}">             
+                <img src="{% static 'stationery/images/product/espatulas.png' %}" class="card-img-top"
+                    alt="eCommerce Template">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                        Espatulas
+                    </a></h5>
+                <div class="d-block d-sm-block d-md-flex d-lg-flex  justify-content-between align-items-center">
+                    <span class="text-muted strike-through"><s>$1500.00</s></span>
+                    <span class="sell-price">$1200.00</span>
                 </div>
+                <span class="discount-badge">20% de descuento</span>
+            </div>
+            <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card product-card">
+            <a href="{% url 'shopProduct' %}">
+                <img src="{% static 'stationery/images/product/engrapadora.png' %}" class="card-img-top"
+                    alt="eCommerce Template">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                    Engrapadora con grapas incluidas
+                    </a></h5>
+                <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                    <span class="text-muted strike-through"><s>$254.00</s></span>
+                    <span class="sell-price">$200.00</span>
+                </div>
+                <span class="discount-badge">10% de descuento</span>
+            </div>
+            <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card product-card">
+            <a href="{% url 'shopProduct' %}">
+                <img src="{% static 'stationery/images/product/lienzo.png' %}" class="card-img-top"
+                    alt="eCommerce Template">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                    Lienzo 60x50cm
+                    </a></h5>
+                <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                    <span class="text-muted strike-through"><s>$190.00</s></span>
+                    <span class="sell-price">$180.00</span>
+                </div>
+                <span class="discount-badge">5% de descuento</span>
+            </div>
+            <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card product-card">
+            <a href="{% url 'shopProduct' %}">
+                <img src="{% static 'stationery/images/product/cuadernoU.png' %}" class="card-img-top"
+                    alt="eCommerce Template">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                      Cuaderno Universitario
+                    </a></h5>
+                <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                    <span class="text-muted strike-through"><s>$150.00</s></span>
+                    <span class="sell-price">$100.00</span>
+                </div>
+                <span class="discount-badge">30% de descuento</span>
+            </div>
+            <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card product-card">
+            <a href="{% url 'shopProduct' %}">
+                <img src="{% static 'stationery/images/product/acuarelas.png' %}" class="card-img-top"
+                    alt="eCommerce Template">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                    Acuarelas
+                    </a></h5>
+                <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                    <span class="text-muted strike-through"><s>$400.00</s></span>
+                    <span class="sell-price">$300.00</span>
+                </div>
+                <span class="discount-badge">10% de descuento</span>
+            </div>
+            <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card product-card">
+            <a href="{% url 'shopProduct' %}">
+                <img src="{% static 'stationery/images/product/ColorespPaperM.png' %}" class="card-img-top"
+                    alt="eCommerce Template">
+            </a>
+            <div class="card-body">
+                <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                    Colores Paper Mate 48 colores
+                    </a></h5>
+                <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                    <span class="text-muted strike-through"><s>$1300.00</s></span>
+                    <span class="sell-price">$1200.00</span>
+                </div>
+                <span class="discount-badge">30% de descuento</span>
+            </div>
+            <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">SOLICITARLO</a>
+        </div>
+    </div>
+</div>
                 </div>
                
                 <!-- row -->
@@ -366,4 +358,33 @@ Compras
     </div>
 </div>
 </main>
+ <!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/505XXXXXXXX" class="whatsapp-float" target="_blank">
+  <i class="bi bi-whatsapp"></i>
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  z-index: 100;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebd5a;
+}
+</style>
 {% endblock content%}

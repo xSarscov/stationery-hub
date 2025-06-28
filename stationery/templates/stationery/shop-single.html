@@ -15,7 +15,7 @@ Compra del producto
                     <!-- breadcrumb -->
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb mb-0">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><href="{% url 'home' %}">Home</href=></li>
                             <li class="breadcrumb-item"><a href="#">Cuadernos y papel</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Cuaderno Universitario</li>
                         </ol>
@@ -120,7 +120,7 @@ Compra del producto
 
                             <ul class="d-flex list-unstyled mt-4">
                                <li>
-                                <a href="cart.html" class="btn btn-cart"><i class="bi bi-bag me-2"></i>Comprar</a>
+                                <a href="cart.html" class="btn btn-cart"><i class="bi bi-bag me-2"></i>Solicitarlo</a>
                                </li>
                                <li>
                                 <a class="btn btn-light" href="#" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Compare" data-bs-original-title="Compare"><i class="bi bi-arrow-left-right"></i></a>
@@ -181,169 +181,251 @@ Compra del producto
                     <div class="tab-content" id="myTabContent">
                         <!-- tab pane -->
                         <div class="tab-pane fade show active" id="product-tab-pane" role="tabpanel" aria-labelledby="product-tab" tabindex="0">
-                            <div class="my-5">
-                                <div class="mb-5">
-                                    <!-- text -->
-                                    <p class="mb-0">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisi, tellus iaculis urna bibendum in lacus, integer. Id imperdiet vitae varius sed magnis eu nisi nunc sit. Vel,
-                                        varius habitant ornare ac rhoncus. Consequat risus facilisis ante ipsum netus risus adipiscing sagittis sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+    <div class="my-5">
+        <div class="mb-5">
+            <!-- text -->
+            <h4 class="mb-3">🚀 Cuaderno Universitario Buzz Lightyear - ¡Hasta el infinito y más allá!</h4>
+            <p class="mb-4">
+                Este cuaderno temático de Buzz Lightyear combina <strong>funcionalidad académica</strong> con el <strong>espíritu aventurero</strong> de Toy Story. Perfecto para estudiantes que quieren llevar sus apuntes al siguiente nivel.
+            </p>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <h5 class="mb-3">✨ Características especiales:</h5>
+                    <ul>
+                        <li class="mb-2">Diseño exclusivo con <strong>estampado de Buzz Lightyear</strong> en alta calidad</li>
+                        <li class="mb-2">Frase icónica <em>"Hasta el infinito y más allá"</em> en el lomo</li>
+                        <li class="mb-2">Incluye <strong>pegatinas temáticas</strong> para personalizar tus apuntes</li>
+                        <li class="mb-2">Papel de 90g/m² con <strong>microperforado</strong> para arrancar hojas limpiamente</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="mb-3">📐 Especificaciones técnicas:</h5>
+                    <ul>
+                        <li class="mb-2"><strong>Tamaño:</strong> A5 (14x21 cm) - Ideal para mochilas</li>
+                        <li class="mb-2"><strong>Hojas:</strong> 120 páginas (60 hojas) rayadas</li>
+                        <li class="mb-2"><strong>Cubierta:</strong> Dura con acabado anti-rayones</li>
+                        <li class="mb-2"><strong>Incluye:</strong> Separador de páginas con diseño espacial</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-4 bg-light p-3 rounded">
+                <h5 class="text-primary">🎯 ¿Por qué es perfecto para ti?</h5>
+                <p class="mb-0">
+                    No solo es un cuaderno, es una <strong>declaración de estilo</strong>. Combina tu pasión por Toy Story con la organización que necesitas para la universidad. ¡Ideal para fanáticos del espacio, la aventura y los buenos recuerdos!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
                         
                         <div class="tab-pane fade" id="reviews-tab-pane" role="tabpanel" aria-labelledby="reviews-tab" tabindex="0">
-                            <div class="my-5">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="mb-5">
-                                            <div class="d-flex border-bottom pb-2 mb-2">
-                                                <div>
-                                                    <h6 class="mb-1">Ernesto</h6>
-                                                    <p class="small">
-                                                        <span class="text-muted">01 de Diciembre del 2024</span>
-                                                        <span class="text-primary ms-3 fw-bold">Verificado</span>
-                                                    </p>
-                                                    <div class="mb-2">
-                                                        <i class="bi bi-star-fill text-warning"></i>
-                                                        <i class="bi bi-star-fill text-warning"></i>
-                                                        <i class="bi bi-star-fill text-warning"></i>
-                                                        <i class="bi bi-star-fill text-warning"></i>
-                                                        <i class="bi bi-star-fill text-warning"></i>
-                                                    </div>
-                                                    <p>
-                                                        Maximun Pulse
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="mb-5">
-                                            <div class="d-flex border-bottom pb-2 mb-2">
-                                                <div>
-                                                    <h6 class="mb-1">Ernesto</h6>
-                                                    <p class="small">
-                                                        <span class="text-muted">01 de enero 2025</span>
-                                                        <span class="text-primary ms-3 fw-bold">Verificado</span>
-                                                    </p>
-                                                    <div class="mb-2">
-                                                        <i class="bi bi-star-fill text-warning"></i>
-                                                        <i class="bi bi-star-fill text-warning"></i>
-                                                        <i class="bi bi-star-fill text-warning"></i>
-                                                        <i class="bi bi-star-fill text-warning"></i>
-                                                        <i class="bi bi-star-half text-warning"></i>
-                                                    </div>
-                                                    <p>
-                                                      3er piso	
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+    <div class="my-5">
+        <div class="row">
+            <!-- Reseña 1 - Destacada -->
+            <div class="col-md-12 mb-4">
+                <div class="card border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="card-body p-4" style="background-color: #f8f9fa;">
+                        <div class="d-flex align-items-start">
+                            <div class="me-3">
+                                <div class="bg-primary bg-opacity-10 rounded-circle p-3">
+                                    <i class="bi bi-rocket-fill text-primary fs-4"></i>
                                 </div>
                             </div>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="mb-0">Ernesto</h5>
+                                    <span class="badge bg-success bg-opacity-10 text-success">
+                                        <i class="bi bi-patch-check-fill"></i> Verificado
+                                    </span>
+                                </div>
+                                <p class="small text-muted mb-2">01 de Diciembre 2024</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-warning text-dark fw-normal me-1">5.0</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="lead fst-italic mb-2">"¡Hasta el infinito y más allá! Este cuaderno es espectacular"</p>
+                                <p class="mb-0">La calidad del papel es increíble, el diseño de Buzz Lightyear se ve incluso mejor que en las fotos y las pegatinas incluidas son un detalle genial. ¡Totalmente recomendado para fans!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section class="my-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3>Artículos relacionados</h3>
-                </div>
-            </div>
-            <div class="product mt-4">
-                <div class="owl-carousel product-slider">
-                    <div class="card product-card mx-2">
-                        <a href="shop-single.html">
-                            <img src={% static 'stationery/images/product/cuadernoU.png' %}  class="card-img-top" alt="eCommerce Template">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="shop-single.html">
-                                    Cuaderno Universitario 
-                                </a></h5>
-                            <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
-                                <span class="text-muted strike-through"><s>C$1500.00</s></span>
-                                <span class="sell-price">C$1200.00</span>
+            <!-- Reseña 2 -->
+            <div class="col-md-12 mb-4">
+                <div class="card border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="card-body p-4">
+                        <div class="d-flex align-items-start">
+                            <div class="me-3">
+                                <div class="bg-info bg-opacity-10 rounded-circle p-3">
+                                    <i class="bi bi-stars text-info fs-4"></i>
+                                </div>
                             </div>
-                            <span class="discount-badge">20% DESCUENTO</span>
-                        </div>
-                        <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Solicitarlo</a>
-                    </div>
-                    <div class="card product-card mx-2">
-                        <a href="shop-single.html">
-                            <img src={% static 'stationery/images/product/cuadernobuzz.png' %}  class="card-img-top" alt="eCommerce Template">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="shop-single.html">
-                                    Cuaderno de BUZZ
-                                </a></h5>
-                            <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
-                                <span class="text-muted strike-through"><s>C$254.00</s></span>
-                                <span class="sell-price">C$200.00</span>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="mb-0">María</h5>
+                                    <span class="badge bg-success bg-opacity-10 text-success">
+                                        <i class="bi bi-patch-check-fill"></i> Verificado
+                                    </span>
+                                </div>
+                                <p class="small text-muted mb-2">15 de Enero 2025</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-warning text-dark fw-normal me-1">4.5</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-half text-warning"></i>
+                                </div>
+                                <p class="lead fst-italic mb-2">"Perfecto para la universidad y coleccionistas"</p>
+                                <p class="mb-0">El cuaderno es muy resistente, la tinta no traspasa y el diseño es adorable. Le doy 4.5 estrellas solo porque me hubiera gustado que viniera con más pegatinas. Por lo demás, ¡excelente compra!</p>
                             </div>
-                            <span class="discount-badge">10% DESCUENTO</span>
                         </div>
-                        <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Solicitarlo</a>
-                    </div>
-                    <div class="card product-card mx-2">
-                        <a href="shop-single.html">
-                            <img src={% static 'stationery/images/product/lapizM.png' %}  class="card-img-top" alt="eCommerce Template">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="shop-single.html">
-                                    Lapices de grafito
-                                </a></h5>
-                            <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
-                                <span class="text-muted strike-through"><s>C$190.00</s></span>
-                                <span class="sell-price">C$180.00</span>
-                            </div>
-                            <span class="discount-badge">5% DESCUENTO</span>
-                        </div>
-                        <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Solicitarlo</a>
-                    </div>
-                    <div class="card product-card mx-2">
-                        <a href="shop-single.html">
-                            <img src={% static 'stationery/images/product/CuadernoUniversitarioHarryPotter.png' %}  class="card-img-top" alt="eCommerce Template">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="shop-single.html">
-                                    Cuaderno Universitario Harry Potter
-                                </a></h5>
-                            <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
-                                <span class="text-muted strike-through"><s>C$150.00</s></span>
-                                <span class="sell-price">C$100.00</span>
-                            </div>
-                            <span class="discount-badge">30% DESCUENTO</span>
-                        </div>
-                        <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Solicitarlo</a>
-                    </div>
-                    <div class="card product-card mx-2">
-                        <a href="shop-single.html">
-                            <img src={% static 'stationery/images/product/lapicerosBicTransparente.png' %} class="card-img-top" alt="eCommerce Template">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title"><a href="shop-single.html">
-                                    Caja de Lapiceros BIC
-                                </a></h5>
-                            <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
-                                <span class="text-muted strike-through"><s>C$400.00</s></span>
-                                <span class="sell-price">C$300.00</span>
-                            </div>
-                            <span class="discount-badge">10% DESCUENTO</span>
-                        </div>
-                        <a href="cart.html" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Solicitarlo</a>
                     </div>
                 </div>
             </div>
-            
-            
+
+            <!-- Reseña 3 -->
+            <div class="col-md-12">
+                <div class="card border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="card-body p-4" style="background-color: #fff8e1;">
+                        <div class="d-flex align-items-start">
+                            <div class="me-3">
+                                <div class="bg-danger bg-opacity-10 rounded-circle p-3">
+                                    <i class="bi bi-heart-fill text-danger fs-4"></i>
+                                </div>
+                            </div>
+                            <div class="flex-grow-1">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <h5 class="mb-0">Carlos</h5>
+                                    <span class="badge bg-success bg-opacity-10 text-success">
+                                        <i class="bi bi-patch-check-fill"></i> Verificado
+                                    </span>
+                                </div>
+                                <p class="small text-muted mb-2">03 de Febrero 2025</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-warning text-dark fw-normal me-1">5.0</span>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </div>
+                                <p class="lead fst-italic mb-2">"¡Buzz estaría orgulloso de este cuaderno!"</p>
+                                <p class="mb-0">Compré 3, uno para usar y dos para colección. La calidad superó mis expectativas. El elástico de cierre es fuerte y las hojas tienen un tacto suave perfecto para escribir. ¡100% recomendado para fans de Toy Story!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <!--articulos-->
+   <section class="my-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Artículos relacionados</h3>
+            </div>
+        </div>
+        <div class="product mt-4">
+            <div class="owl-carousel product-slider">
+                <div class="card product-card mx-2">
+                    <a href="{% url 'shopProduct' %}">
+                        <img src="{% static 'stationery/images/product/cuadernoU.png' %}" class="card-img-top" alt="eCommerce Template">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                                Cuaderno Universitario 
+                            </a></h5>
+                        <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                            <span class="text-muted strike-through"><s>C$1500.00</s></span>
+                            <span class="sell-price">C$1200.00</span>
+                        </div>
+                        <span class="discount-badge">20% DESCUENTO</span>
+                    </div>
+                    <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Solicitarlo</a>
+                </div>
+                <div class="card product-card mx-2">
+                    <a href="{% url 'shopProduct' %}">
+                        <img src="{% static 'stationery/images/product/cuadernobuzz.png' %}" class="card-img-top" alt="eCommerce Template">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                                Cuaderno de BUZZ
+                            </a></h5>
+                        <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                            <span class="text-muted strike-through"><s>C$254.00</s></span>
+                            <span class="sell-price">C$200.00</span>
+                        </div>
+                        <span class="discount-badge">10% DESCUENTO</span>
+                    </div>
+                    <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Solicitarlo</a>
+                </div>
+                <div class="card product-card mx-2">
+                    <a href="{% url 'shopProduct' %}">
+                        <img src="{% static 'stationery/images/product/lapizM.png' %}" class="card-img-top" alt="eCommerce Template">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                                Lapices de grafito
+                            </a></h5>
+                        <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                            <span class="text-muted strike-through"><s>C$190.00</s></span>
+                            <span class="sell-price">C$180.00</span>
+                        </div>
+                        <span class="discount-badge">5% DESCUENTO</span>
+                    </div>
+                    <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Solicitarlo</a>
+                </div>
+                <div class="card product-card mx-2">
+                    <a href="{% url 'shopProduct' %}">
+                        <img src="{% static 'stationery/images/product/CuadernoUniversitarioHarryPotter.png' %}" class="card-img-top" alt="eCommerce Template">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                                Cuaderno Universitario Harry Potter
+                            </a></h5>
+                        <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                            <span class="text-muted strike-through"><s>C$150.00</s></span>
+                            <span class="sell-price">C$100.00</span>
+                        </div>
+                        <span class="discount-badge">30% DESCUENTO</span>
+                    </div>
+                    <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Solicitarlo</a>
+                </div>
+                <div class="card product-card mx-2">
+                    <a href="{% url 'shopProduct' %}">
+                        <img src="{% static 'stationery/images/product/lapicerosBicTransparente.png' %}" class="card-img-top" alt="eCommerce Template">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="{% url 'shopProduct' %}">
+                                Caja de Lapiceros BIC
+                            </a></h5>
+                        <div class="d-block d-sm-block d-md-flex d-lg-flex justify-content-between align-items-center">
+                            <span class="text-muted strike-through"><s>C$400.00</s></span>
+                            <span class="sell-price">C$300.00</span>
+                        </div>
+                        <span class="discount-badge">10% DESCUENTO</span>
+                    </div>
+                    <a href="{% url 'shopProduct' %}" class="d-block rounded py-2 text-center border mx-3 mb-3 btn-cart">Solicitarlo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--articulos ends-->
 </main>
 {% endblock content%}
